@@ -2,12 +2,15 @@
 
 # Setup
 
-1. [Fork **Hint.css**](https://help.github.com/articles/fork-a-repo) and clone it on your system.
-2. Create a new branch out off `master` for your fix/feature. `git checkout new-feature master`
+1. [Fork **Hint.css**](https://help.github.com/articles/fork-a-repo) and clone
+   it on your system.
+2. Create a new branch out off `master` for your fix/feature.
+   `git checkout new-feature master`
 
 # Building
 
-**Hint.css** uses [Grunt](http://gruntjs.com/) for the build process which you need to have installed on your system.
+**Hint.css** uses [Grunt](http://gruntjs.com/) for the build process which you
+need to have installed on your system.
 
 Also there are four additional Grunt tasks required to build the library:
 
@@ -21,22 +24,34 @@ Also there are four additional Grunt tasks required to build the library:
 
 To install all the dependencies, run `npm install`.
 
-Once you have the dependencies installed, run `npm run dev` from the project directory. This will start watching all the files in `src/` and run the default grunt task which compiles the SCSS files into `hint.css` file. You can then test your changes in `demo.html`.
+Once you have the dependencies installed, run `npm run dev` from the project
+directory. This will start watching all the files in `src/` and run the default
+grunt task which compiles the SCSS files into `hint.css` file. You can then test
+your changes in `demo.html`.
 
-Though this should be sufficient for building the library for testing, in case you want to build the minified version as well you can run the `grunt deploy` command instead.
+Though this should be sufficient for building the library for testing, in case
+you want to build the minified version as well you can run the `grunt deploy`
+command instead.
 
 # Things to remember
 
-- Do not fix multiple issues in a single commit. Keep them one thing per commit so that they can be picked easily incase only few commits require to be merged.
+- Do not fix multiple issues in a single commit. Keep them one thing per commit
+  so that they can be picked easily incase only few commits require to be
+  merged.
 
-- For every new modifier (example `hint--success`, `hint--top`) added, make a separate file unless it fits into a current modifier file.
+- For every new modifier (example `hint--success`, `hint--top`) added, make a
+  separate file unless it fits into a current modifier file.
 
-- Before submitting a patch, rebase your branch on upstream `master` to make life easier for the merger.
+- Before submitting a patch, rebase your branch on upstream `master` to make
+  life easier for the merger.
 
-- **DO NOT** add the library builds (`hint.css` & `hint.min.css`) in your commits.
+- **DO NOT** add the library builds (`hint.css` & `hint.min.css`) in your
+  commits.
 
 # Stay in touch
 
-To catch all updates and discussion, join the mailing list: **hintcss@googlegroups.com**.
+To catch all updates and discussion, join the mailing list:
+**hintcss@googlegroups.com**.
 
-To subscribe: **hintcss+subscribe@googlegroups.com** or visit [here](https://groups.google.com/forum/?fromgroups=#!forum/hintcss).
+To subscribe: **hintcss+subscribe@googlegroups.com** or visit
+[here](https://groups.google.com/forum/?fromgroups=#!forum/hintcss).
